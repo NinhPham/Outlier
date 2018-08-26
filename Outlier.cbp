@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Outlier" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Outlier" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters='2126 21 &quot;C:\_Data\Dataset\_L1D\Datasets\cardiotocography_22_2126_21_471.txt&quot; &quot;FastVOA&quot; 10 32 5' />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Outlier" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters='60839 41 &quot;C:\_Data\Dataset\_L1D\Datasets\KDDCup99_norm_idf_60839_41_246.txt&quot; &quot;Sam1NN&quot; 20' />
+				<Compiler>
+					<Add option="-O3" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++11" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="ABOF.cpp" />
+		<Unit filename="ABOF.h" />
+		<Unit filename="Distance.cpp" />
+		<Unit filename="Distance.h" />
+		<Unit filename="Header.cpp" />
+		<Unit filename="Header.h" />
+		<Unit filename="InputParser.cpp" />
+		<Unit filename="InputParser.h" />
+		<Unit filename="L1Depth.cpp" />
+		<Unit filename="L1Depth.h" />
+		<Unit filename="RP_VOA.cpp" />
+		<Unit filename="RP_VOA.h" />
+		<Unit filename="SamplingKNN.cpp" />
+		<Unit filename="SamplingKNN.h" />
+		<Unit filename="SamplingL1Depth.cpp" />
+		<Unit filename="SamplingL1Depth.h" />
+		<Unit filename="Utilities.cpp" />
+		<Unit filename="Utilities.h" />
+		<Unit filename="VOA.cpp" />
+		<Unit filename="VOA.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="prng.cpp" />
+		<Unit filename="prng.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

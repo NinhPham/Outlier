@@ -1,0 +1,81 @@
+# depslib dependency file v1.0
+1534675435 source:c:\_data\dropbox\working\_code\c++\outlier\abof.cpp
+	"ABOF.h"
+	"Utilities.h"
+
+1534674877 c:\_data\dropbox\working\_code\c++\outlier\abof.h
+	"Header.h"
+
+1534973889 c:\_data\dropbox\working\_code\c++\outlier\header.h
+	<vector>
+
+1535279258 c:\_data\dropbox\working\_code\c++\outlier\utilities.h
+	"Header.h"
+	"prng.h"
+	<sstream>
+	<utility>
+	"time.h"
+	<algorithm>
+	<cstdio>
+	<math.h>
+	<iostream>
+
+1534861679 c:\_data\dropbox\working\_code\c++\outlier\prng.h
+	<math.h>
+
+1534672405 source:c:\_data\dropbox\working\_code\c++\outlier\distance.cpp
+	"Distance.h"
+	"Utilities.h"
+
+1534606721 c:\_data\dropbox\working\_code\c++\outlier\distance.h
+	"Header.h"
+
+1534709569 source:c:\_data\dropbox\working\_code\c++\outlier\header.cpp
+	"Header.h"
+
+1535015118 source:c:\_data\dropbox\working\_code\c++\outlier\inputparser.cpp
+	"InputParser.h"
+	"Header.h"
+	"Utilities.h"
+	"stdlib.h"
+	<iostream>
+	<fstream>
+	"string.h"
+	<math.h>
+
+1466454851 c:\_data\dropbox\working\_code\c++\outlier\inputparser.h
+	"Header.h"
+
+1534688904 source:c:\_data\dropbox\working\_code\c++\outlier\l1depth.cpp
+	"L1Depth.h"
+	"Utilities.h"
+
+1534688009 c:\_data\dropbox\working\_code\c++\outlier\l1depth.h
+	"Header.h"
+
+1534861671 source:c:\_data\dropbox\working\_code\c++\outlier\prng.cpp
+	<stdio.h>
+	<stdlib.h>
+	"prng.h"
+
+1535278394 source:c:\_data\dropbox\working\_code\c++\outlier\rp_voa.cpp
+	"RP_VOA.h"
+	"Utilities.h"
+
+1535278407 c:\_data\dropbox\working\_code\c++\outlier\rp_voa.h
+	"Header.h"
+
+1534887403 source:c:\_data\dropbox\working\_code\c++\outlier\samplingknn.cpp
+	"SamplingKNN.h"
+	"Utilities.h"
+
+1534885836 c:\_data\dropbox\working\_code\c++\outlier\samplingknn.h
+	"Header.h"
+
+1535278325 source:c:\_data\dropbox\working\_code\c++\outlier\samplingl1depth.cpp
+	"SamplingL1Depth.h"
+	"Utilities.h"
+
+1535278332 c:\_data\dropbox\working\_code\c++\outlier\samplingl1depth.h
+	"Header.h"
+
